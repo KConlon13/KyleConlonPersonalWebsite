@@ -6,7 +6,7 @@ class Aboutme extends React.Component {
   render(){
     return (
         <div className="Aboutme">
-            <h1>ABOUT ME PAGE</h1>
+            <h1>ABOUT ME PAGE!</h1>
         </div>
     );
   }
