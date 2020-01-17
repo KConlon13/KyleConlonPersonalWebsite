@@ -1,14 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Navbar from "./Navbar"
+import Home from "./Home"
+import Aboutme from "./Aboutme"
+import Projects from "./Projects"
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Kyle's Personal Website</h1>
-      <h3> (Currently Under Construction 😬) </h3>
-    </div>
-  );
+
+
+    return (
+      <Router>
+        <div className="App">
+        <Navbar/>
+            <Switch>
+              <Route exact path="/" component={Home}/>
+              <Route path="/aboutme" component={Aboutme}/>
+              <Route path="/projects" component={Projects}/>
+            </Switch>
+        </div>
+      </Router>
+    );
+
 }
 
 export default App;
+
+// place react router here as well as the header/sidebar
