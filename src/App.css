@@ -4,12 +4,12 @@
 
 .Navbar {
   height: 100vh;
-  width: 34vh;
+  width: 36vh;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  padding-top: 35px;
+  padding-top: 27px;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
@@ -19,19 +19,59 @@
 }
 
 #NavBarName {
-  font-size: 28px;
+  font-size: 29px;
 }
 
 .ui.small.circular.image {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0vh;
-  margin-top: 3.3vh;
-  height: 198px;
-  width: 190px;
+  margin-top: 3.2vh;
+  height: 200px;
+  width: 195px;
   /* the following styling is for the shadow on the image */
   background: red;
   -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
+
+/* .linkedin.icon {
+  color: rgb(15, 165, 157);
+} */
+
+.ui.circular.linkedin.icon.button {
+  background: white;
+  margin-left: .7vh;
+  margin-right: .7vh;
+}
+
+/* .github.icon {
+  color: rgb(15, 165, 157);
+} */
+
+.ui.circular.github.icon.button {
+  background: white;
+  margin-left: .7vh;
+  margin-right: .7vh;
+}
+
+.fab.fa-medium-m {
+  color: rgb(15, 165, 157);
+
+}
+.ui.circular.medium.icon.button {
+  background: white;
+  margin-left: .7vh;
+  margin-right: .7vh;
+  align-items: center;
+}
+
+.fab.fa-linkedin-in {
+  color: rgb(15, 165, 157);
+}
+
+.fab.fa-github {
+  color: rgb(15, 165, 157);
+}
+
