@@ -18,7 +18,7 @@ class App extends React.Component {
               <Route exact path="/" component={Aboutme}/>
               <Route path="/contact" component={Contact}/>
               <Route path="/resume" component={Resume}/>
-              <Route path="/projects" component={Projects}/>
+              <Route path="/portfolio" component={Projects}/>
             </Switch>
         </div>
       </Router>
@@ -27,5 +27,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-// place react router here as well as the header/sidebar

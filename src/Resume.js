@@ -6,7 +6,7 @@ class Resume extends React.Component {
   render(){
     return (
         <div className="Resume">
-            <h1>RESUME PAGE!</h1>
+            <h1>RESUME PAGE</h1>
         </div>
     );
   }

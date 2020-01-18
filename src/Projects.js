@@ -5,8 +5,8 @@ class Projects extends React.Component {
 
   render(){
     return (
-        <div className="Projects">
-            <h1>PORTFOLIO PAGE!</h1>
+        <div className="Portfolio">
+            <h1>PORTFOLIO PAGE</h1>
         </div>
     );
   }

@@ -31,7 +31,7 @@ class Navbar extends React.Component {
                 <h1 id="NavBarName">Kyle Conlon</h1>
                 <img className="ui small circular image" src={KyleCirclePhoto}/>
                 <div style={{marginLeft: "1vw", marginRight: "1vw", marginTop: "3vh", marginBottom: "2vh"}}>
-                    <span style={{color: "white", fontSize: 15, lineHeight: "2.5vh"}}>
+                    <span style={{color: "white", fontSize: 13, lineHeight: "2.5vh"}}>
                         Hi, my name is Kyle Conlon and I'm a fullstack software engineer. Welcome to my personal website!
                     </span>
                 </div>
@@ -69,7 +69,7 @@ class Navbar extends React.Component {
                     </div> }   
 
                 </Link>
-                <Link to="/projects" style={navStyle}>
+                <Link to="/portfolio" style={navStyle}>
 
                     { this.state.projectsClicked === true ? 
                         <div style={{margin: "auto", marginBottom: "1.6vh", color: "black"}} onClick={()=>this.projectsClickHandler()}>
@@ -106,6 +106,16 @@ class Navbar extends React.Component {
 
                 <h4 style={{color: "#545e5d65", opacity: "0.5", marginTop: "0vh"}}>____________________________________________
                 </h4>
+
+                <div>
+                    <a href="mailto:KyleConlon13@gmail.com" target="_blank">
+                        <button class="ui button" style={{background: "rgba(31, 32, 32, 0.350)", color: "white"}}>
+                            <i class="fas fa-paper-plane" style={{display: "inline"}}></i>
+                            <h3 style={{display: "inline", marginLeft: "1vw", fontSize: "15px"}}>Hire Me</h3>
+                        </button>
+                    </a>
+                </div>
+
             </div>
         );
     }
@@ -116,5 +126,3 @@ const navStyle = {
 }
 
 export default Navbar;
-
-// was looking to add clickhandler and change color of the links in the navbar based on what page youre on using state for each

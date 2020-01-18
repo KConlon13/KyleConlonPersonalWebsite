@@ -19,7 +19,7 @@
 }
 
 #NavBarName {
-  font-size: 29px;
+  font-size: 23px;
 }
 
 .ui.small.circular.image {
@@ -27,8 +27,8 @@
   margin-right: auto;
   margin-bottom: 0vh;
   margin-top: 3.2vh;
-  height: 200px;
-  width: 195px;
+  height: 160px;
+  width: 155px;
   /* the following styling is for the shadow on the image */
   background: red;
   -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
@@ -75,3 +75,18 @@
   color: rgb(15, 165, 157);
 }
 
+.Portfolio {
+  margin-top: 5vh;
+}
+
+.Aboutme {
+  margin-top: 5vh;
+}
+
+.Resume {
+  margin-top: 5vh;
+}
+
+.Contact {
+  margin-top: 5vh;
+}
