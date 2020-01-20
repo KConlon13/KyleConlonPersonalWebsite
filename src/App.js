@@ -14,12 +14,16 @@ class App extends React.Component {
       <Router>
         <div className="App">
         <Navbar/>
+
+          <div className="ContentPageMain">
             <Switch>
               <Route exact path="/" component={Aboutme}/>
               <Route path="/contact" component={Contact}/>
               <Route path="/resume" component={Resume}/>
               <Route path="/portfolio" component={Projects}/>
             </Switch>
+
+          </div>
         </div>
       </Router>
     );

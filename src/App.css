@@ -18,6 +18,10 @@
   color: white;
 }
 
+.ContentPageMain {
+  margin-left: 36vh;
+}
+
 #NavBarName {
   font-size: 23px;
 }
@@ -36,19 +40,11 @@
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
-/* .linkedin.icon {
-  color: rgb(15, 165, 157);
-} */
-
 .ui.circular.linkedin.icon.button {
   background: white;
   margin-left: .7vh;
   margin-right: .7vh;
 }
-
-/* .github.icon {
-  color: rgb(15, 165, 157);
-} */
 
 .ui.circular.github.icon.button {
   background: white;
@@ -80,7 +76,7 @@
 }
 
 .Aboutme {
-  margin-top: 5vh;
+
 }
 
 .Resume {
@@ -89,4 +85,25 @@
 
 .Contact {
   margin-top: 5vh;
+}
+
+.BioBoxTitle {
+  padding-right: 8vh;
+  padding-left: 5vh;
+  text-align: left;
+  padding-top: 1vh;
+}
+
+.BioBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-Top: 5vh;
+  margin: 7;
+  background-color: rgba(245, 248, 248, 0.644);
+  padding-bottom: 10vh;
+}
+
+.whatIDo {
+  padding-top: 5vh;
 }
