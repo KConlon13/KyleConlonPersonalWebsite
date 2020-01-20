@@ -107,3 +107,16 @@
 .whatIDo {
   padding-top: 5vh;
 }
+
+.SkillsGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 4vh;
+  padding-bottom: 10vh;
+}
+
+li {
+  list-style-type: none;
+  font-size: 12px;
+}
