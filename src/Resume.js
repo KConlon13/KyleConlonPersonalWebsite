@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import ResumeImage from "./ResumeImage.png"
 
 class Resume extends React.Component {
 
   render(){
     return (
         <div className="Resume">
-            <h1>RESUME PAGE</h1>
+            <img src={ResumeImage} 
+            alt="Kyle's Resume" 
+            id="ResumePNG"/>
         </div>
     );
   }

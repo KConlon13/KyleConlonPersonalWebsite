@@ -122,3 +122,8 @@ li {
   list-style-type: none;
   font-size: 12px;
 }
+
+#ResumePNG {
+  border: 1px solid rgb(15, 165, 157);
+  box-shadow: 8px 10px 10px grey, -8px 10px 10px grey;
+}
