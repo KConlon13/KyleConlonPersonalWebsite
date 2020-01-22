@@ -213,9 +213,8 @@ li {
   height: 33vh;
 }
 
-.GrayHeaderBoxResume {
+.ResumeGrayHeaderBox {
   padding-Top: 5vh;
-  margin: 7;
   background-color: rgba(236, 238, 238, 0.356);
   margin-bottom: 5vh;
   height: 23vh;

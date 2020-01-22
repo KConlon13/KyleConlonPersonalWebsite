@@ -7,7 +7,7 @@ class Resume extends React.Component {
   render(){
     return (
         <div className="Resume">
-          <div class="GrayHeaderBoxResume">
+          <div class="ResumeGrayHeaderBox">
             <h1 style={{fontSize: "31px", marginBottom: "1.9vh"}}>Online Resume</h1>
             <button class="ui button" style={{background: "rgb(15, 165, 157)", color: "white", marginRight: "0.7vw", width: "18vw"}}>
               <i class="fas fa-file-pdf fa-2x" style={{display: "inline"}}></i>
