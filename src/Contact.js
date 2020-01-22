@@ -46,7 +46,7 @@ class Contact extends React.Component {
           <h1 id="ContactTitle">GET IN TOUCH</h1>
           <h1 id="ContactDividerLine">____</h1>
           <div id="ContactContentBox">
-            <div>
+            <div style={{paddingTop: "35px"}}>
               <i class="fas fa-envelope"></i>
               <h3 class="emailContact" >KyleConlon13@gmail.com</h3>
               <a href="mailto:KyleConlon13@gmail.com" target="_blank" rel="noopener noreferrer" class="emailHyperlink">(Click Here)</a>

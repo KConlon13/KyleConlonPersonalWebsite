@@ -92,7 +92,7 @@
   justify-content: space-around;
   padding-Top: 5vh;
   margin: 7;
-  background-color: rgba(236, 238, 238, 0.356);
+  background-color: rgba(236, 238, 238, 0.548);
   padding-bottom: 5vh;
 }
 
@@ -123,7 +123,7 @@ li {
 }
 
 .ContactMainBox {
-  background: rgba(195, 192, 192, 0.308);
+  background: rgba(236, 238, 238, 0.548);
   margin-top: 10vh;
   margin-bottom: 12vh;
   margin-left: 20vh;
@@ -208,21 +208,21 @@ li {
   justify-content: space-around; */
   padding-Top: 5vh;
   margin: 7;
-  background-color: rgba(236, 238, 238, 0.356);
+  background-color: rgba(236, 238, 238, 0.548);
   margin-bottom: 5vh;
   height: 33vh;
 }
 
 .ResumeGrayHeaderBox {
   padding-Top: 5vh;
-  background-color: rgba(236, 238, 238, 0.356);
+  background-color: rgba(236, 238, 238, 0.548);
   margin-bottom: 5vh;
   height: 23vh;
 }
 
 .PortfolioGrayHeaderBox {
   padding-Top: 5vh;
-  background-color: rgba(236, 238, 238, 0.356);
+  background-color: rgba(236, 238, 238, 0.548);
   margin-bottom: 5vh;
   height: 30vh;
 }
@@ -244,6 +244,7 @@ li {
   flex-direction: column;
   padding: 10px;
   height: 100%;
+  width: 26vw;
   justify-content: center;
   align-items: center;
 }
@@ -276,4 +277,45 @@ li {
   font-size: 34px;
   font-weight: bolder;
   margin-bottom: 0;
+}
+
+.project-bio {
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.Chewsy-project-bio {
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.Github-Demo-Links {
+  color: rgb(15, 165, 157);
+  display: inline;
+}
+
+.Divider-Github-Demo {
+  color: black;
+  display: inline;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.Built-With-List {
+  margin-top: 20px;
+}
+
+.P-List {
+  margin: -10px 0 1em;
+  line-height: 1.2em;
+  font-size: 14px;
+}
+
+.BuiltHeader {
+  margin-bottom: 2.5vh;
+  font-size: 22px;
 }
