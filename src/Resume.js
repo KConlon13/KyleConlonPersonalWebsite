@@ -8,11 +8,13 @@ class Resume extends React.Component {
     return (
         <div className="Resume">
           <div class="ResumeGrayHeaderBox">
-            <h1 style={{fontSize: "31px", marginBottom: "1.9vh"}}>Online Resume</h1>
-            <button class="ui button" style={{background: "rgb(15, 165, 157)", color: "white", marginRight: "0.7vw", width: "18vw"}}>
-              <i class="fas fa-file-pdf fa-2x" style={{display: "inline"}}></i>
-              <h3 style={{display: "inline", marginLeft: "1vw", fontSize: "16px", verticalAlign: "25%"}}>Download PDF Version</h3>
+            <h1 style={{fontSize: "31px", marginBottom: "2vh"}}>Online Resume</h1>
+
+            <button class="ui button" style={{background: "rgb(15, 165, 157)", color: "white", width: "17vw"}}>
+              <i class="fas fa-file-pdf fa-lg" style={{display: "inline", verticalAlign: "25%"}}></i>
+              <h3 style={{display: "inline", marginLeft: "1vw", fontSize: "15px", verticalAlign: "25%"}}>Download PDF Version</h3>
             </button>
+            
           </div>
             <img src={ResumeImage} 
             alt="Kyle's Resume" 
