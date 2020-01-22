@@ -75,14 +75,6 @@
   margin-top: 5vh;
 }
 
-.Aboutme {
-
-}
-
-.Resume {
-  margin-top: 5vh;
-}
-
 .Contact {
   margin-top: 5vh;
 }
@@ -127,12 +119,13 @@ li {
   border: 1px solid rgb(15, 165, 157);
   box-shadow: 8px 10px 10px grey, -8px 10px 10px grey;
   margin-bottom: 2vh;
+  height: 150vh;
 }
 
 .ContactMainBox {
   background: rgba(195, 192, 192, 0.308);
   margin-top: 10vh;
-  margin-bottom: 50vh;
+  margin-bottom: 12vh;
   margin-left: 20vh;
   margin-right: 20vh;
   height: 80vh;
@@ -207,4 +200,23 @@ li {
   display: inline;
   padding-right: .7vw;
   color: rgb(15, 165, 157);
+}
+
+.GrayHeaderBox {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  padding-Top: 5vh;
+  margin: 7;
+  background-color: rgba(236, 238, 238, 0.356);
+  margin-bottom: 5vh;
+  height: 33vh;
+}
+
+.GrayHeaderBoxResume {
+  padding-Top: 5vh;
+  margin: 7;
+  background-color: rgba(236, 238, 238, 0.356);
+  margin-bottom: 5vh;
+  height: 23vh;
 }
