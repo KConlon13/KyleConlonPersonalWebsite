@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Map from "./Map1.png"
 
 class Contact extends React.Component {
 
@@ -42,7 +43,7 @@ class Contact extends React.Component {
 
         </div>
 
-        <div className="ContactMainBox">
+        {/* <div className="ContactMainBox">
           <h1 id="ContactTitle">GET IN TOUCH</h1>
           <h1 id="ContactDividerLine">____</h1>
           <div id="ContactContentBox">
@@ -71,7 +72,35 @@ class Contact extends React.Component {
               </a>
             </div>
           </div>
+        </div> */}
+
+
+
+
+        {/* Beginning of Contact Info Section */}
+        <div>
+          <div className="getInTouch">
+            <h1 style={{display:"inline", textAlign: "left", color: "rgb(15, 165, 157)", fontWeight: "900", fontSize: "39px"}}>|</h1>
+            <h2 style={{paddingLeft: ".7vw", fontSize: "26px", display:"inline", verticalAlign: "7%"}}>Get In Touch</h2>
+          </div>
+
+          <div style={{display: "flex", flexDirection: "row", marginBottom: "5vh"}}>
+            <div style={{paddingTop: "6vh"}}>
+              <p class="PContactInfo">516-640-9350</p>
+              <p class="PContactInfo">KyleConlon13@gmail.com</p>
+              <p class="PContactInfo">linkedin.com/in/devkyleconlon/</p>
+              <p class="PContactInfo">Long Island, NY</p>
+            </div>
+
+            <img src={Map} alt="map" style={{ width: "37vw", minWidth: "200px", marginLeft: "16vw", marginTop: "6vh"}}/>
+
+          </div>
+
         </div>
+        {/* End of Contact Info Section */}
+
+
+
 
       </div>
     );

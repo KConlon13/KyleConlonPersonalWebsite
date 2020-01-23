@@ -319,3 +319,17 @@ li {
   margin-bottom: 2.5vh;
   font-size: 22px;
 }
+
+.PContactInfo {
+  text-align: left;
+  padding-left: 10vh;
+  font-size: 15px;
+  margin: 0;
+  padding-bottom: 18px;
+}
+
+.getInTouch {
+  padding-top: 5vh;
+  padding-left: 5vh;
+  text-align: left;
+}
