@@ -34,7 +34,7 @@ class Contact extends React.Component {
 
         {/* Beginning of Contact Info Section */}
 
-        <div class="contactShowContainer">
+        <div class="mainContactShowContainer">
           <div class="contactCard">
             <button class="massive ui circular icon button" style={{background: "rgb(15, 165, 157)", pointerEvents: "none", height: "100px", width: "100px" }}>
               <i class="fas fa-map-marker-alt fa-2x" style={{color: "white"}}></i>

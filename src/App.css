@@ -320,7 +320,7 @@ li {
   font-size: 22px;
 }
 
-.contactShowContainer {
+.mainContactShowContainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
