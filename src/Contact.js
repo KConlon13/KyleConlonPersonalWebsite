@@ -10,10 +10,10 @@ class Contact extends React.Component {
 
           <h1 style={{fontSize: "31px", marginBottom: "1.2vh"}}>Contact</h1>
 
-            <div style={{alignItems: "center"}}>
-              <h4 style={{fontSize: "16px", fontWeight: "100", marginTop: 0, paddingTop: 0, paddingLeft: "10.5vw", paddingRight: "10.5vw", lineHeight: "3.3vh", display: "inline"}}>Interested in hiring me for your company or just want to say hi?   You can explore the contact info below or send an email to </h4>
-              <a href="mailto:KyleConlon13@gmail.com" target="_blank" rel="noopener noreferrer" style={{fontSize: "16px", fontWeight: "100", marginTop: 0, paddingTop: 0, lineHeight: "3.3vh", display: "inline", paddingLeft: "10.5vw", color: "rgb(15, 165, 157)"}}>KyleConlon13@gmail.com</a>
-              <h4 style={{fontSize: "16px", fontWeight: "100", marginTop: 0, paddingTop: 0, paddingRight: "10.5vw", lineHeight: "3.3vh", display: "inline"}}>.   Feel free to connect on any social links below as well.</h4>
+            <div style={{alignItems: "center" , marginLeft: "5vw", marginRight: "5vw"}}>
+              <h4 style={{fontSize: "16px", fontWeight: "100", marginTop: 0, paddingTop: 0, lineHeight: "3.3vh", display: "inline"}}>Interested in hiring me for your company or just want to say hi?   You can explore the contact info below or send an email to </h4>
+              <a href="mailto:KyleConlon13@gmail.com" target="_blank" rel="noopener noreferrer" style={{fontSize: "16px", fontWeight: "100", marginTop: 0, paddingTop: 0, lineHeight: "3.3vh", display: "inline", color: "rgb(15, 165, 157)"}}>KyleConlon13@gmail.com</a>
+              <h4 style={{fontSize: "16px", fontWeight: "100", marginTop: 0, paddingTop: 0, lineHeight: "3.3vh", display: "inline"}}>.   Feel free to connect on any social links below as well.</h4>
             </div>
 
             <div style={{marginBottom: "1vh", marginTop: "2.5vh"}}>
