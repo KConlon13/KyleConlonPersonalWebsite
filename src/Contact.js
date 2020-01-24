@@ -41,6 +41,7 @@ class Contact extends React.Component {
             </button>
             <h3 class="contactCardHeader">Location</h3>
             <h3 class="contactCardBody">Valley Stream, New York</h3>
+            <h3 class="contactCardBodySub">Just a 50 minute LIRR commute from Penn Station and I own a car if vehicle transporation is needed</h3>
           </div>
 
           <div class="contactCard">
@@ -49,6 +50,7 @@ class Contact extends React.Component {
             </button>
             <h3 class="contactCardHeader">Phone</h3>
             <h3 class="contactCardBody">(516) 640-9350</h3>
+            <h3 class="contactCardBodySub">Available for phone conversations/ interviews Monday-Friday between the hours of 9am and 6pm</h3>
           </div>
 
           <div class="contactCard">
@@ -57,6 +59,7 @@ class Contact extends React.Component {
             </button>
             <h3 class="contactCardHeader">E-mail</h3>
             <h3 class="contactCardBody">KyleConlon13@gmail.com</h3>
+            <h3 class="contactCardBodySub">Any inquiries regarding work or interviews can be sent to this email and will be responded to immediately</h3>
           </div>
         </div>
         {/* End of Contact Info Section */}
