@@ -320,16 +320,34 @@ li {
   font-size: 22px;
 }
 
-.PContactInfo {
-  text-align: left;
-  padding-left: 10vh;
-  font-size: 15px;
-  margin: 0;
-  padding-bottom: 18px;
+.contactShowContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10vh;
 }
 
-.getInTouch {
-  padding-top: 5vh;
-  padding-left: 5vh;
-  text-align: left;
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  height: 100%;
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactCardHeader {
+  font-size: 27px;
+}
+
+.contactCardBody {
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 0;
 }
