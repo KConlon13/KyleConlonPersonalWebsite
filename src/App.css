@@ -365,3 +365,12 @@ li {
   margin-bottom: 7vh;
   height: 33vh;
 }
+
+.Nav-Link-Titles {
+  margin: auto;
+  margin-bottom: 1.5vh;
+}
+
+.ui-header:hover {
+  color: "black"
+}

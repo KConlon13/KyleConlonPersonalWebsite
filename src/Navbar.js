@@ -5,25 +5,26 @@ import KyleCirclePhoto from "./KyleCirclePhoto.jpg"
 
 class Navbar extends React.Component {
 
-    state={
-        aboutClicked: true,
-        contactClicked: false,
-        resumeClicked: false,
-        projectsClicked: false
-      }
+    // state={
+    //     aboutClicked: true,
+    //     contactClicked: false,
+    //     resumeClicked: false,
+    //     projectsClicked: false
+    //   }
 
-    aboutClickHandler=()=>{
-        this.setState({aboutClicked: true, contactClicked: false, resumeClicked: false, projectsClicked: false})
-    }
-    contactClickHandler=()=>{
-        this.setState({aboutClicked: false, contactClicked: true, resumeClicked: false, projectsClicked: false})
-    }
-    resumeClickHandler=()=>{
-        this.setState({aboutClicked: false, contactClicked: false, resumeClicked: true, projectsClicked: false})
-    }
-    projectsClickHandler=()=>{
-        this.setState({aboutClicked: false, contactClicked: false, resumeClicked: false, projectsClicked: true})
-    }
+    // aboutClickHandler=()=>{
+    //     this.setState({aboutClicked: true, contactClicked: false, resumeClicked: false, projectsClicked: false})
+    // }
+    // contactClickHandler=()=>{
+    //     this.setState({aboutClicked: false, contactClicked: true, resumeClicked: false, projectsClicked: false})
+    // }
+    // resumeClickHandler=()=>{
+    //     this.setState({aboutClicked: false, contactClicked: false, resumeClicked: true, projectsClicked: false})
+    // }
+    // projectsClickHandler=()=>{
+    //     this.setState({aboutClicked: false, contactClicked: false, resumeClicked: false, projectsClicked: true})
+    // }
+
 
     render(){
         return (
@@ -57,54 +58,66 @@ class Navbar extends React.Component {
 
                 <Link to="/" style={navStyle}>
 
-                    { this.state.aboutClicked === true ? 
+                    {/* { this.state.aboutClicked === true ? 
                     <div style={{margin: "auto", marginBottom: "1.6vh", marginTop: "3vh", color: "black"}} onClick={()=>this.aboutClickHandler()}>
                         <i class="fas fa-user" style={{display: "inline", marginRight: "9px"}}></i>
                         <h3 class="ui header" style={{display: "inline", color: "black"}}>About Me</h3>
-                    </div> :
-                    <div style={{margin: "auto", marginBottom: "1.6vh", marginTop: "3vh"}} onClick={()=>this.aboutClickHandler()}>
+                    </div> : */}
+                    <div style={{margin: "auto", marginBottom: "1.6vh", marginTop: "3vh"}} 
+                    // onClick={()=>this.aboutClickHandler()}
+                    >
                         <i class="fas fa-user" style={{display: "inline", marginRight: "9px"}}></i>
                         <h3 class="ui header" style={{display: "inline", color: "white"}}>About Me</h3>
-                    </div> }   
+                    </div> 
+                    {/* }    */}
 
                 </Link>
                 <Link to="/portfolio" style={navStyle}>
 
-                    { this.state.projectsClicked === true ? 
+                    {/* { this.state.projectsClicked === true ? 
                         <div style={{margin: "auto", marginBottom: "1.6vh", color: "black"}} onClick={()=>this.projectsClickHandler()}>
                         <i class="fas fa-laptop-code" style={{display: "inline", marginRight: "9px"}}></i>
                         <h3 class="ui header" style={{display: "inline", color: "black"}}>Portfolio</h3>
-                        </div> :
-                        <div style={{margin: "auto", marginBottom: "1.6vh"}} onClick={()=>this.projectsClickHandler()}>
+                        </div> : */}
+                        <div style={{margin: "auto", marginBottom: "1.6vh"}} 
+                        // onClick={()=>this.projectsClickHandler()}
+                        >
                         <i class="fas fa-laptop-code" style={{display: "inline", marginRight: "9px"}}></i>
                         <h3 class="ui header" style={{display: "inline", color: "white"}}>Portfolio</h3>
-                        </div> }
+                        </div> 
+                        {/* } */}
 
                 </Link>
                 <Link to="/resume" style={navStyle} > 
 
-                { this.state.resumeClicked === true ? 
+                {/* { this.state.resumeClicked === true ? 
                         <div style={{margin: "auto", marginBottom: "1.6vh", color: "black"}} onClick={()=>this.resumeClickHandler()}>
                         <i class="fas fa-file" style={{display: "inline", marginRight: "9px"}}></i>
                         <h3 class="ui header" style={{display: "inline", color: "black"}}>Resume</h3>
-                        </div> :
-                        <div style={{margin: "auto", marginBottom: "1.6vh"}} onClick={()=>this.resumeClickHandler()}>
+                        </div> : */}
+                        <div style={{margin: "auto", marginBottom: "1.6vh"}} 
+                        // onClick={()=>this.resumeClickHandler()}
+                        >
                         <i class="fas fa-file" style={{display: "inline", marginRight: "9px"}}></i>
                         <h3 class="ui header" style={{display: "inline", color: "white"}}>Resume</h3>
-                        </div> }
+                        </div> 
+                        {/* } */}
 
                 </Link>
                 <Link to="/contact" style={navStyle} > 
 
-                    { this.state.contactClicked === true ? 
+                    {/* { this.state.contactClicked === true ? 
                         <div style={{margin: "auto", marginBottom: "3vh", color: "black"}} onClick={()=>this.contactClickHandler()}>
                         <i class="fas fa-envelope-open-text" style={{display: "inline", marginRight: "9px"}}></i>
                         <h3 class="ui header" style={{display: "inline", color: "black"}}>Contact</h3>
-                        </div> :
-                        <div style={{margin: "auto", marginBottom: "3vh"}} onClick={()=>this.contactClickHandler()}>
+                        </div> : */}
+                        <div style={{margin: "auto", marginBottom: "3vh"}} 
+                        // onClick={()=>this.contactClickHandler()}
+                        >
                         <i class="fas fa-envelope-open-text" style={{display: "inline", marginRight: "9px"}}></i>
                         <h3 class="ui header" style={{display: "inline", color: "white"}}>Contact</h3>
-                        </div> }
+                        </div> 
+                        {/* } */}
                         
                 </Link>
 
