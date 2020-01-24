@@ -358,3 +358,10 @@ li {
   margin-top: 0;
   width: 200px;
 }
+
+.Contact-Grey-Box {
+  padding-Top: 5vh;
+  background-color: rgba(236, 238, 238, 0.548);
+  margin-bottom: 7vh;
+  height: 33vh;
+}

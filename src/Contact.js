@@ -6,7 +6,7 @@ class Contact extends React.Component {
   render(){
     return (
       <div>
-        <div class="GrayHeaderBox">
+        <div class="Contact-Grey-Box">
 
           <h1 style={{fontSize: "31px", marginBottom: "1.2vh"}}>Contact</h1>
 
